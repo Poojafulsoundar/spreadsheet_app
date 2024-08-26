@@ -1,0 +1,13 @@
+/* Grid.css */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 1px;
+  }
+/* Responsive styling */
+@media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(10, 1fr);
+    }
+  }
+    

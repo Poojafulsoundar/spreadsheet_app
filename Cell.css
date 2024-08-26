@@ -1,0 +1,11 @@
+/* Cell.css */
+.cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  .cell input {
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+  
